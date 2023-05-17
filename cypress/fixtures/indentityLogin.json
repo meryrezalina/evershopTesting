@@ -1,0 +1,29 @@
+[
+    {
+        "LoginCase": "Success",
+        "email" : "tupac@gmail.com",
+        "password" : "Qwerty456"
+        
+    },
+
+    {
+        "LoginCase": "emailFail",
+        "email" : "tupac**@gmail",
+        "password" : "1234567"
+        
+    },
+
+    {
+        "LoginCase": "passFail",
+        "email" : "tupac@gmail.com",
+        "password" : "1234567"
+        
+    },
+
+    {
+        "LoginCase": "Empty",
+        "email" : "",
+        "password" : ""
+        
+    }
+]

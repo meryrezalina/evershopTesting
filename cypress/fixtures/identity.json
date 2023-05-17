@@ -1,0 +1,17 @@
+[
+    {
+        "SignupCase": "Success",
+        "fullname" : "gaara",
+        "email" : "gaara@gmail.com",
+        "password" : "Qwerty456"
+        
+    },
+
+    {
+        "SignupCase": "existEmail",
+        "fullname" : "opah",
+        "email" : "opah@gmail.com",
+        "password" : "Qwerty456"
+        
+    }
+]
