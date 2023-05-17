@@ -1,0 +1,30 @@
+[
+    {
+        "basketCase": "lihatProduct"
+    },
+
+    {
+        "basketCase": "tambahProduct"
+        
+    },
+
+    {
+        "basketCase": "updateQuantity",
+        "qty": "2"
+        
+    },
+    {
+        "basketCase": "hapusQuantity",
+        "qty": "2"
+        
+    },
+    {
+        "basketCase": "checkout",
+        "email" : "tupac**@gmail.com",
+        "fullname" : "tupac aja",
+        "telepon" : "123456789",
+        "alamat" : "jakarta",
+        "city" : "jogja",
+        "postcode" : "345678"
+    }
+]
