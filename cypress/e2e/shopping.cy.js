@@ -34,6 +34,7 @@ describe('Shopping Story', () => {
                 cy.xpath("//input[@placeholder='Qty']").clear()
                 cy.xpath("//input[@placeholder='Qty']").type(basketData.qty)
                 //enath kenapa size L nya harus diketik ulang biar gk nambah baru
+                cy.wait(1500);
                 cy.xpath("//a[normalize-space()='L']").click({ multiple: true })
                 cy.xpath("//a[normalize-space()='White']").click({ multiple: true })
                 cy.wait(1500);
@@ -66,8 +67,8 @@ describe('Shopping Story', () => {
                 //select payment method
                 cy.wait(1500);
                 cy.xpath("//div[@class='checkout-payment checkout-step']//div//div[1]//div[1]//div[1]//div[1]//div[1]//a[1]//*[name()='svg']").click({ force: true });
-                
                 cy.xpath("//button[@type='button']").click({ multiple: true })
+                cy.wait(1500);
 
             }
         }) 
