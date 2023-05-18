@@ -26,7 +26,7 @@ describe('Shopping Story', () => {
                 cy.xpath("//a[normalize-space()='White']").click({ multiple: true })
                 cy.wait(1500);
                 cy.xpath("//button[@type='button']").click({ multiple: true })
-                cy.xpath("//a[normalize-space()='VIEW CART (2)']").click({ multiple: true })
+                cy.get(".add-cart-popup-button").click({ multiple: true })
                 cy.xpath(" //img[@alt='Lite racer adapt 3.0 shoes']").click({ multiple: true })
             }
             else if(basketData.basketCase == "updateQuantity"){
@@ -39,7 +39,7 @@ describe('Shopping Story', () => {
                 cy.xpath("//a[normalize-space()='White']").click({ multiple: true })
                 cy.wait(1500);
                 cy.xpath("//button[@type='button']").click({ multiple: true })
-                cy.xpath("//a[normalize-space()='VIEW CART (2)']").click({ multiple: true })
+                cy.get(".add-cart-popup-button").click({ multiple: true })
                 cy.wait(1500);
             }
             else if(basketData.basketCase == "hapusQuantity"){
@@ -68,7 +68,7 @@ describe('Shopping Story', () => {
                 cy.wait(1500);
                 cy.xpath("//div[@class='checkout-payment checkout-step']//div//div[1]//div[1]//div[1]//div[1]//div[1]//a[1]//*[name()='svg']").click({ force: true });
                 cy.xpath("//button[@type='button']").click({ multiple: true })
-                cy.wait(1500);
+                cy.wait(4000);
 
             }
         }) 

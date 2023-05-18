@@ -1,0 +1,14 @@
+[
+    {
+        "basketLoginCase": "login",
+        "email" : "naruto@gmail.com",
+        "password" : "Qwerty456",
+        "qty" : "5"
+    },
+    {
+        "basketLoginCase": "logout",
+        "email" : "naruto@gmail.com",
+        "password" : "Qwerty456"
+    }
+
+]
